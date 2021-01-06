@@ -28,9 +28,6 @@ Architecture=$(uname -p) # Grab the Processor Architecture
 Version=$(sw_vers -productVersion) # Grab the OS Version Number
 MajorVersion=$(/bin/echo $Version | cut -c -2) # Strip Out the OS Major Version Number
 #
-Architecture=arm
-MajorVersion=11
-#
 # Set the name of the script for later logging
 ScriptName="append prefix here as needed - Install Rosetta 2 Translation Environment"
 #
